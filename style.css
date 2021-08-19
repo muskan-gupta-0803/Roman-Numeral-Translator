@@ -1,0 +1,63 @@
+body{
+    text-align: center;
+    margin-top: 8rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background-color: black;
+    color: cornsilk;
+}
+
+footer{
+    position: fixed;
+    bottom:0;
+    left:0;
+    padding:1rem;
+    width:100%;
+    background-color: black;
+    color: cornsilk;
+}
+
+input, button{
+    display: block;
+    margin: 2rem auto;
+    padding: 1rem;
+    font-size: 1em;
+}
+
+input:focus{
+    background-color: cornsilk;
+    border-color: black;
+}
+
+button{
+    border-radius: 8px;
+    background-color: cornsilk;
+    
+}
+
+button:hover{
+    box-shadow: 2px 2px 4px black;
+}
+
+#output{
+    border:2px solid black;
+    background-color: cornsilk;
+    width:40%;
+    margin:2rem auto;
+    height: 8vh;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#output-heading, p{
+    font-size: 1.2rem;
+
+}
